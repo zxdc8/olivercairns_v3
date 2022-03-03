@@ -30,16 +30,6 @@ export default {
       name: 'Categories',
       link: '/categories'
     },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
-    }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -66,7 +56,7 @@ export default {
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
