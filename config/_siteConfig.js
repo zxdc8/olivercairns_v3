@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'Oliver Cairns',
   tagline: 'A site for my things',
-  featureImage: '/uploads/home-hero.jpg',
+  featureImage: '/uploads/LES.png',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
