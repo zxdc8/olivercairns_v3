@@ -52,7 +52,15 @@
               </figure>
             </article>
           </div>
-        </div>
+        
+		</div>
+		
+		<div class="tile is-parent is-8">
+            <article class="tile is-child box">
+				<contact-form />
+            </article>
+          </div>
+		
       </template>
 
       <template v-slot:sidebar>
@@ -75,3 +83,16 @@ export default {
   components: { QuoteCard }
 }
 </script>
+
+<script>
+import ContactForm from '~/components/ContactForm'
+export default {
+  head() {
+    return {
+      title: `Contact | ${this.$siteConfig.siteName}`
+    }
+  },
+  components: { ContactForm }
+}
+</script>
+
